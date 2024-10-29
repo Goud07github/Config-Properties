@@ -6,7 +6,7 @@ spring:
   datasource:
     username: root
     password: parshu
-    url: jdbc:mysql://localhost:3306/spring
+    url: jdbc:mysql://localhost:3306/spring 
 
   jpa:
     hibernate:
