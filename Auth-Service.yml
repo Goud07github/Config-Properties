@@ -5,9 +5,8 @@ spring:
         url: http://localhost:4444/
 
   datasource:
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:ORCL
-    username: System
+    url: jdbc:mysql://localhost:3306/Spring
+    username: root
     password: parshu
 
   jpa:
